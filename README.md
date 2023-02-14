@@ -12,6 +12,16 @@ The result of this tool concerns images of the selected toi, with a crop to the 
 
 This library has several dependencies listed in the requirements.txt file. It requires a Python version >= 3.9 and an API key with access permissions to the Data API and ORDER API. If the user does not have complete access to these APIs, the program may fail.
 
+### Installation
+
+```
+git clone https://github.com/joaherrerama/planet_api.git
+
+cd planet_api
+
+pip install -r requirements.txt 
+```
+
 ## Execution
 
 ```
