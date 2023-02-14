@@ -19,6 +19,8 @@ class test_sim_model(unittest.TestCase):
 
     def test_error_no_arg(self):
         main([])
+        with self.assertRaises(ValueError) as context:
+            self.assertEqual("No args provided -  Default Values will be executed")
         self.assertEqual("No args provided -  Default Values will be executed")
 
 

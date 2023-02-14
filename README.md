@@ -89,6 +89,8 @@ The CLI reach just an specifict type of images following these parameters:
 
 - Allow users to route a folder with multiple file and discriminate them, emulating a batch process.
 
+- Use the stup tool to distribute and create the wheel and dist. Currently the CLI requires the python command to be executed
+
 # Disclamer
 
 Due to the lack of an API key, the logic of this CLI is based solely on the documentation for the Data API and ORDER API. The program is expose to a funtional fail due to the lack of testing. 
